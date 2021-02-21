@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "01",
+      "setup": "make soal-01",
+      "run": "./soal-01",
+      "input": "2\r\napel\r\n10\r\njeruk\r\n10",
+      "output": "Buah yang perlu dibeli:\r\n-apel 5\r\n-jeruk 6",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 10
+    },
+    {
+      "name": "02",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "0",
+      "output": "Tidak ada yang diperiksa",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 10
+    },
+    {
+      "name": "03",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "3\r\napel\r\n10\r\njeruk\r\n3\r\nkiwi\r\n8",
+      "output": "Buah yang perlu dibeli:\r\n-apel 5\r\n-kiwi 4",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 10
+    },
+    {
+      "name": "04",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "2\r\nmangga\r\n2\r\nnanas\r\n3",
+      "output": "Buah yang perlu dibeli:\r\nTidak ada",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 10
+    },
+    {
+      "name": "05",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "4\r\nkiwi\r\n2\r\nnanas\r\n3\r\napel\r\n8\r\njambu\r\n3",
+      "output": "Buah yang perlu dibeli:\r\n-apel 3\r\n-jambu 3",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 10
+    },
+    {
+      "name": "06",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "1\r\nnanas\r\n5",
+      "output": "Buah yang perlu dibeli:\r\n-nanas 2",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 10
+    },
+    {
+      "name": "07",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "5\r\nkiwi\r\n10\r\nnanas\r\n5\r\njeruk\r\n8\r\nmangga\r\n1\r\napel\r\n12",
+      "output": "Buah yang perlu dibeli:\r\n-kiwi 6\r\n-nanas 2\r\n-jeruk 4\r\n-apel 7",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 10
+    },
+    {
+      "name": "08",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "2\r\njeruk\r\n6\r\nmangga\r\n1",
+      "output": "Buah yang perlu dibeli:\r\n-jeruk 2",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 10
+    },
+    {
+      "name": "09",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "3\r\napel\r\n1\r\njeruk\r\n1\r\nmangga\r\n1",
+      "output": "Buah yang perlu dibeli:\r\nTidak ada",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 10
+    },
+    {
+      "name": "10",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "2\r\nanggur\r\n5\r\njambu\r\n8",
+      "output": "Buah yang perlu dibeli:\r\n-anggur 5\r\n-jambu 8",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 10
+    }
+  ]
+}
